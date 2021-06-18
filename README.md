@@ -238,7 +238,7 @@ A propeller rotation speed ω_i is assumed positive if it generates an upward li
 ω_i > 0	upward lift <br>
 ω_i < 0	downward lift
 
-As we can see, the propellers rotation speeds use their own sign convention, which is **different from the drone body frame** (see section “Coordinate Frames”). To avoid confusion, rotation speeds are always expressed with the propeller convention in this project, never in the body frame.
+As we can see, the propellers rotation speeds use their own sign convention, which is **different from the drone body frame** (see section “Coordinate Frames”). To avoid confusion, propeller rotation speeds are always expressed with the propeller convention in this project, never in the body frame.
 
 
 **External Loads**
