@@ -458,7 +458,9 @@ A green rectangle in the response diagram indicates the performance criteria was
 |--------------------------------|---------------------------------------------------------|
 | Scenario                       | 3_PositionControl                                       |
 | Initial conditions             | 2 drones start at 1 m above ground.                     |
-|                                | Drone 1 has no yaw. Drone 2 has a 45 deg yaw.           |
+|                                | Drone 1 has no yaw.                                     |
+|                                | Drone 2 has a 45 deg yaw.                               |
+|                                | <img src="images/scenario_03_initial_yaw.jpg" width="600"/>|
 | Objective                      | Move both drones 0.5 m forward and bring yaw to 0.      |
 | Parameters (Controllers)       | K_p_x, K_d_x (Lateral controller)                       |
 |                                | K_p_y, K_d_y (Lateral controller)                       |
@@ -478,7 +480,7 @@ A green rectangle in the response diagram indicates the performance criteria was
 |                                | Drone 1 is too heavy.                                   |
 |                                | Drone 2 is an ideal drone.                              |
 |                                | Drone 3 has its CG offset to the right.                 |
-|                                | <img src="images/scenario_04_offset_cg.jpg" width="600"/>                                  |
+|                                | <img src="images/scenario_04_offset_cg.jpg" width="600"/>|
 | Objective                      | Move both drones 2 m forward and reach a target.        |
 | Parameters (Controllers)       | K_i_z (Altitude controller)                             |
 | Before tuning                  | <img src="videos/scenario_04_a.gif" width="600"/>       |
@@ -492,9 +494,9 @@ A green rectangle in the response diagram indicates the performance criteria was
 |--------------------------------|---------------------------------------------------------|
 | Scenario                       | 5_TrajectoryFollow                                      |
 | Initial conditions             | 2 drones start below a target trajectory                |
-| Objective                      | Follow the trajectory                                  |
+| Objective                      | Follow the trajectory                                   |
 | Parameters (Controllers)       | All                                                     |
-| After tuning                   | <img src="videos/scenario_05.gif" width="600"/>       |
+| After tuning                   | <img src="videos/scenario_05.gif" width="600"/>         |
 | Performance criteria / Results | <img src="images/scenario_05_results.jpg" width="600"/> |
 
 
