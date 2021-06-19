@@ -458,8 +458,8 @@ A green rectangle in the response diagram indicates the performance criteria was
 |--------------------------------|---------------------------------------------------------|
 | Scenario                       | 3_PositionControl                                       |
 | Initial conditions             | 2 drones start at 1 m above ground.                     |
-|                                | Drone 1 has no yaw.                                     |
-|                                | Drone 2 has a 45 deg yaw.                               |
+|                                | Drone 1 has no initial yaw.                             |
+|                                | Drone 2 has a 45 deg initial yaw.                       |
 |                                | <img src="images/scenario_03_initial_yaw.jpg" width="600"/>|
 | Objective                      | Move both drones 0.5 m forward and bring yaw to 0.      |
 | Parameters (Controllers)       | K_p_x, K_d_x (Lateral controller)                       |
