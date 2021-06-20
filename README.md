@@ -20,6 +20,9 @@ This project is part of Udacity's Autonomous Flight Engineer Nanodegree [3]. Thi
 
 3 - Make sure you comply with your local regulations before flying a drone.
 
+4 - This project makes several assumptions which may not apply on a real drone.
+
+
 # Install & Run
 
 1 - Clone this repository
@@ -532,10 +535,6 @@ A green rectangle in the response diagram indicates the performance criteria was
 [4] Udacity, C++ Flight Simulator, github, https://github.com/udacity/FCND-Controls-CPP
 
 [5] Udacity's Autonomous Flight Engineer Nanodegree, Course 3 - Controls, Lesson 1 - Vehicle Dynamics, Section 7 - Rotor Physics.
-
-[6] Knowledge, What is kappa in project?, https://knowledge.udacity.com/questions/500895
-
-
 
 
 
